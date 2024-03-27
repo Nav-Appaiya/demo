@@ -1,14 +1,42 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "pakbon": [
+    {
+      "pakbon_id": 1,
+      "Naam": "John",
+      "Voorletters": "J",
+      "Achternaam": "Doe",
+      "Emailadres": "john.doe@example.com",
+      "Organisatie": "ABC Company",
+      "Telefoonnummer": "123456789",
+      "Depot": "Depot1",
+      "xml_pakbon": ["file1.xml", "file2.xml"],
+      "zip_bestanden": ["file1.zip", "file2.zip"],
+      "gebruiker_id": 1,
+      "project_id": 1
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "gebruiker": [
+    {
+      "gebruiker_id": 1,
+      "achternaam": "Doe",
+      "voornaam": "John",
+      "emailadres": "john.doe@example.com",
+      "telefoonnummer": "123456789",
+      "organisatie": "ABC Company",
+      "actief": true,
+      "rol": "admin",
+      "aangemaakt": "2024-03-27",
+      "laatst_ingelogd": "2024-03-27"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "project": [
+    {
+      "project_id": 1,
+      "naam": "Project X",
+      "omschrijving": "Description of Project X",
+      "status": "active",
+      "aangemaakt": "2024-03-27",
+      "gebruiker_id": 1
+    }
+  ]
 }
